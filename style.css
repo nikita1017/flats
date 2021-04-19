@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #212121;
+    font-size: 0;
+}
+.menu{
+    /* background: green; */
+    display: inline-block;
+    vertical-align: top;
+}
+.menu a{
+    line-height: 50px;
+    background: #212121;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 20px;
+    color: white;
+}
+.menu li{
+    display: inline-block;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+    /* background: green */
+    padding: 0 10px;
+    
+}
+.phoneSection{
+    /* background: green; */
+    float: right;
+}
+.phoneSection img{
+    height: 50px;
+    width: 30px;
+    padding: 0 10px;
+    filter: invert(100%);
+}
+.phoneSection p{
+    display: inline-block;
+    /* background: tomato; */
+    line-height: 50px;
+    color: white;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 0 16px;
+}
+.phoneSection a:last-child{
+    background: #212121;
+    color: white;
+    line-height: 38px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+}
+menu li{
+    display: inline-block;
+}
+.logo img{
+    height: 50px;
+    width: 30px;
+    filter: invert(100%);
+}
+nav{
+    display: none;
+}
+a{
+  text-decoration: none;
+}
+.sliderButtons{
+    /* background: #468200; */
+    text-align: center;
+    font-size: 0;
+    
+
+}
+.sliderButtons img{
+    display: block;
+    width: 25px;
+    height: 50px;
+    opacity: 0.5;
+    transition: 0.3;
+    
+}
+.sliderButtons a:first-child img{
+    transform: rotate(180deg);
+}
+.sliderButtons a{
+    background: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+    margin: 0 5px;     
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    display: inline-block;
+}
+.sliderButtons a:hover{
+    transform: scale(1.05);
+}
+.sliderButtons a:hover img{
+    opacity: 1;
+}
+.slide{
+    background-image: url("1 room.jpg");
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+    background-position: center;
+    background-size: cover;
+}
+.slide:nth-child(2){
+    background-image: url("2 room.jpg");
+
+}
+.slide:nth-child(3){
+    background-image: url("3 room.jpg");
+
+}
+.slider{
+    white-space: nowrap;
+    font-size: 0;
+    transition: 0.5s;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* ЗАААААААЛЕЕЕСЬ СЮДДДДДДА!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.slide h2{
+    font-size: 50px;
+    margin: 100px 50px 50px;
+    color: aliceblue;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.slide p{
+    font-size: 18px;
+    margin: 0 50px 50px;
+    color: white;
+    background: #000000aa;
+    padding: 20px;
+    border-radius: 15px;
+}
+.slide a{
+    font-size: 18px;
+    background: orange;
+    color: white;
+    margin: 0 50px 100px;
+    display: inline-block;
+    padding: 0 50px;
+    line-height: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+
+}
+main{
+    background-image: url("фон квартир.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.sectionTitle{
+    text-shadow: 5px 10px 20px #000000;
+    color: white;
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.flat{
+    display: inline-block;
+    width: calc((100% - 30px) / 3);
+    margin: 0 5px 15px;
+}
+.flat img{
+    width: 20px;
+}
+.flat section p{
+    /* background: tomato; */
+    margin-left: 5px;
+    margin-right: 16px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.flats {
+    font-size: 0;
+    text-align: center;
+}
+.flatInfo img{
+    height: 20px;
+}
+.flatInfo{
+    background: #00ff0000;
+    padding: 20px;
+}
+.flat{
+    background: white;
+    border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 10px, 0.6);
+}
+.flat h2{
+    font-size: 20px;
+}
+.flats p{
+    font-size: 20px;
+    display: inline-block;
+    
+}
+.flatInfo>p{
+    display: block;
+    margin: 10px auto;
+}
+.flat>img{
+    width: 100%;
+}
+section{
+    display: inline-block;
+    
+}
+menu a{
+    line-height: 50px;
+    background: tomato;
+    display: inline-block;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.commentOne{
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+.userInfo img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.comments{
+    position: relative;
+    height: 290px;
+    overflow: hidden;
+    
+}
+.pair{
+    position: absolute;
+    opacity: 0; 
+    top: 0;
+    padding: 30px;
+    transition: 0.3s;
+    transform: scale(0.95);
+}
+.activePair{
+opacity: 1;
+transform: scale(1);
+}
+.comment{
+    background: #fff;
+    box-shadow: 0 0 10px #000000ff;
+    width: calc(50% - 5px);
+    float: left;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.comment:last-child{
+    float: right;
+}
+.comment h3{
+    display: inline-block;
+    top: 65px;
+    line-height: 50px;
+    vertical-align: top;
+}
+.comments .sliderButtons{
+    margin-top: 390px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
